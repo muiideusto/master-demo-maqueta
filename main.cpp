@@ -216,6 +216,7 @@ void visualizar() {
   gOled.printf("temp %.2f\r\n", temp);
   gOled.printf("int %.2fA\r\n", corriente);
   gOled.printf("rpm %.2f\r\n", rpm);
+  gOled.printf("dist %.2f\r\n", dist);
   printf("temp=%.2f intensidad=%.2f dist=%.2f rpm=%.2f\r\n", temp, corriente,
          dist, rpm);
    gOled.display();
